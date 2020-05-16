@@ -1,0 +1,46 @@
+html, body {
+height: 100%;
+}
+
+html {
+display: table;
+margin: auto;
+}
+
+body {
+display: table-cell;
+vertical-align: middle;
+} 
+
+
+#name-label, #email-label, #number-label, #checkbox-label,
+#comments-label, #submit {
+  display: block;
+  margin-top: 20px
+}
+
+#name, #email, #number, #dropdown {
+  margin-top: -12px
+}
+
+#dropdown-label, #radio-label {
+  display: block;
+  margin-top: 38px
+}
+
+.radio {
+  margin-top: 15px
+}
+
+#backend, #data {
+  margin-top: 15px
+}
+
+#submit {
+  margin-bottom: 50px
+}
+
+
+
+
+
