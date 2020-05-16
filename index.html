@@ -18,15 +18,33 @@
   <form id="survey-form">
 
     <label for="name" id="name-label">Name</label>
-    <input type="text" id="name" required>
+    <input type="text" id="name" required placeholder="Enter your Name">
     <br>
+    
     <label for="email" id="email-label">Email</label>
-    <input type="email" id="email" required>
+    <input type="email" id="email" required placeholder="Enter your Email">
     <br>
+    
     <label for="number" id="number-label">AGE</label>
-    <input type="number" id="number" min="10" max="99">
+    <input type="number" id="number" min="10" max="99" placeholder="Enter your Age">
+    <br>
 
-
+    <select name="" id="dropdown">
+      <option value="student">Student</option>
+      <option value="full tine job">Full tine job</option>
+      <option value="other">Other</option>
+    </select>
+    <br>
+    
+    <input type="radio" name="radio" value="Definitely">
+    <label for="radio">Definitely</label>
+    <br>
+    <input type="radio" name="radio" value="Maybe">
+    <label for="radio">Maybe</label>
+    <br>
+    <input type="radio" name="radio" value="Not sure">
+    <label for="radio">Not sure</label>
+    <br>
 
   </form>
 
