@@ -10,13 +10,36 @@ margin: auto;
 body {
 display: table-cell;
 vertical-align: middle;
+background: slategray;
+  color: white
 } 
 
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 3px 2px 10px black;
+}
 
-#name-label, #email-label, #number-label, #checkbox-label,
-#comments-label, #submit {
+#checkbox-div, #radio-div {
+  margin-left: 33%;
+  font-size: 25px;
+}
+
+
+#name-label, #email-label, #number-label {
   display: block;
-  margin-top: 20px
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 3px 2px 10px black;
+}
+
+#checkbox-label, #comments-label{
+   display: block;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 3px 2px 10px black;
 }
 
 #name, #email, #number, #dropdown {
@@ -25,7 +48,10 @@ vertical-align: middle;
 
 #dropdown-label, #radio-label {
   display: block;
-  margin-top: 38px
+  margin-top: 38px;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 3px 2px 10px black;
 }
 
 .radio {
@@ -33,14 +59,13 @@ vertical-align: middle;
 }
 
 #backend, #data {
-  margin-top: 15px
+  margin-top: 30px
 }
 
 #submit {
+  display: block;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
   margin-bottom: 50px
 }
-
-
-
-
-
